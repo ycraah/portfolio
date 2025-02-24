@@ -1,0 +1,107 @@
+/* 비디오 */
+.header__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.header__video > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 메뉴 모듈*/
+.header__nav {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 100;
+}
+
+.nav__logo {
+  height: 50px;
+}
+
+.nav__logo .name {
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav__menu {
+  font-weight: bold;
+  padding-right: 50px;
+  position: absolute;
+  right: 30px;
+}
+
+.nav__menu ul {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  transition: top bottom 0.5s;
+}
+
+.nav__menu li {
+  margin-top: 10px;
+  text-align: right;
+  transition: all 0.5s;
+}
+
+.nav__menu li a {
+  position: relative;
+}
+
+.nav__menu li a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: #000;
+  transition: width 0.5s;
+}
+
+.menu__fold {
+  position: absolute;
+  right: 50px;
+  cursor: pointer;
+}
+
+/* 색깔 변환 + scroll.js */
+.header__nav.active path {
+  fill: #eee;
+}
+
+.header__nav.active {
+  color: #eee;
+}
+
+.header__nav.active li a::after {
+  background-color: #eee;
+}
+
+/* 영상 위 텍스트 */
+.header__desc {
+  position: absolute;
+  bottom: 2%;
+}
+
+.desc__text {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.desc__text span {
+  display: block;
+  font-size: 40px;
+}

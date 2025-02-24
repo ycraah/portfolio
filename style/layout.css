@@ -1,0 +1,44 @@
+/* 글꼴 */
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 레이아웃 */
+html {
+  font-family: "GmarketSansMedium";
+}
+
+body {
+  background-color: #121212;
+  color: #000;
+  overflow-x: hidden; //100vw를 했을 때에 스크롤바 제외
+  font-family: "Noto Sans", serif;
+  transition: background-color 0.5s;
+}
+
+body.white-theme {
+  background-color: #eee;
+}
+
+.header {
+  position: relative;
+}
+
+.header__inner {
+  max-width: 1200px;
+  height: 100vh;
+  padding: 30px;
+  margin: 0 auto;
+  position: relative;
+}
+
+article {
+  max-width: 1200px;
+  padding: 30px;
+  min-height: 500px;
+  margin: 0 auto;
+}

@@ -1,0 +1,55 @@
+.hover-opacity:hover {
+  cursor: pointer;
+  transition: all 1s;
+  opacity: 0.6;
+}
+
+.hover-underline:hover::after {
+  width: 100%;
+}
+
+.hidden-top {
+  top: 10px;
+  opacity: 1;
+  transition: top 0.5s, bottom 0.5s, opacity 0.5s;
+}
+
+.hidden-top.active {
+  top: -20px;
+  opacity: 0;
+}
+
+.hidden-bottom {
+  top: 0;
+  transition: top 0.5s, bottom 0.5s, opacity 0.5s;
+  opacity: 1;
+}
+
+.hidden-bottom.active {
+  top: 50px;
+  opacity: 0;
+}
+
+/* 버튼 */
+.btn-s-w a {
+  text-align: center;
+  display: block;
+  border: 1px solid #eee;
+  border-radius: 25px;
+  padding: 15px;
+  transition: all 0.5s;
+}
+
+.btn-s-w a:hover {
+  background-color: #eee;
+  color: #000;
+}
+
+/* 언더라인 */
+.hover-line:hover {
+  text-decoration: underline;
+}
+
+body.white-theme .color-reverse {
+  color: #000;
+}
