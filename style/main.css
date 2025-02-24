@@ -151,6 +151,7 @@ body.white-theme .all-work a::after {
 
 .skill-box .text-body {
   display: inline-block;
+  width: 430px;
   font-size: 20px;
 }
 
@@ -173,4 +174,31 @@ body.white-theme .all-work a::after {
 .skill-box:hover figure img {
   opacity: 1;
   transform: scale(1.1);
+}
+
+/*인터뷰*/
+.interview__container {
+  margin-top: 150px;
+  height: 500px;
+}
+
+.interview__container h2 {
+  font-size: 30px;
+}
+
+.interview-box {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 50px;
+  transition: all 0.5s;
+}
+
+.interview-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.interview-body {
+  font-size: 25px;
+  margin-bottom: 20px;
 }
