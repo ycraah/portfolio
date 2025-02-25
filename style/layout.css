@@ -10,6 +10,7 @@
 /* 레이아웃 */
 html {
   font-family: "GmarketSansMedium";
+  scroll-behavior: smooth;
 }
 
 body {
