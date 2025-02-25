@@ -45,6 +45,15 @@
   color: #000;
 }
 
+/* 버튼 디자인 추가 */
+.skill-box:hover > .btn-s-w a {
+  background-color: #eee;
+}
+
+.skill-box:hover > .btn-s-w a:hover {
+  transform: scale(1.05);
+}
+
 /* 언더라인 */
 .hover-line:hover {
   text-decoration: underline;
