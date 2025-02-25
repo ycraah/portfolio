@@ -13,7 +13,7 @@ window.addEventListener("scroll", function () {
   if (infoRect.top < window.innerHeight) {
     setTimeout(() => {
       targetText.classList.remove("active");
-    }, 1500);
+    }, 1000);
   } else {
     targetText.classList.add("active");
   }
