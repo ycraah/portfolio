@@ -35,13 +35,3 @@ window.addEventListener("scroll", function () {
     }
   }
 });
-
-/* 로딩창에서 휠 불가능 */
-const loadingPage = document.querySelector(".loading-screen");
-loadingPage.addEventListener(
-  "wheel",
-  function (event) {
-    event.preventDefault();
-  },
-  { passive: false }
-);

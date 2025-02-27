@@ -234,3 +234,11 @@ body.white-theme .all-work a::after {
 .item__link a:hover::after {
   width: 100%;
 }
+
+/* video hover시 화면 크기 */
+video {
+  transition: all 0.5s;
+}
+video:hover {
+  transform: scale(1.05);
+}
