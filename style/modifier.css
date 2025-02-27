@@ -62,3 +62,22 @@
 body.white-theme .color-reverse {
   color: #000;
 }
+
+/* 타이핑 효과 */
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #000;
+  width: 0;
+  animation: typing 3s steps(20, end) forwards, blink 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+

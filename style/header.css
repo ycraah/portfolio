@@ -94,6 +94,7 @@
 .header__desc {
   position: absolute;
   bottom: 2%;
+  color:#121212;
 }
 
 .desc__text {
