@@ -4,17 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="./style/loadingScreen.css" />
     <link href="./style/main.css" rel="stylesheet" />
     <link rel="stylesheet" href="./style/modifier.css" />
     <link rel="stylesheet" href="./style/layout.css" type="text/css" />
     <link rel="stylesheet" href="./style/header.css" type="text/css" />
     <link rel="stylesheet" href="./style/footer.css" media="all" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="./script/pageLoading.js"></script>
     <script defer src="./script/calendar.js"></script>
     <script defer src="./script/modifier.js"></script>
     <script defer src="./script/scroll.js"></script>
   </head>
   <body>
+    <div class="loading-screen">
+      <span class="typing">An amazing experience is on the way.</span>
+    </div>
     <header class="header">
       <div class="header__video">
         <video src="./src/header-video.mp4" autoplay muted loop></video>
