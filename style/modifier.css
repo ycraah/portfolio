@@ -65,6 +65,8 @@ body.white-theme .color-reverse {
 
 /* 타이핑 효과 */
 .typing {
+  display: inline-block;
+  max-width: max-content;
   overflow: hidden;
   white-space: nowrap;
   border-right: 3px solid #000;
@@ -73,11 +75,16 @@ body.white-theme .color-reverse {
 }
 
 @keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink {
-  50% { border-color: transparent; }
+  50% {
+    border-color: transparent;
+  }
 }
-

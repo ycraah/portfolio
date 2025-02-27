@@ -2,6 +2,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
     document.querySelector(".loading-screen").style.top = "-100%";
+    setTimeout(function () {
+      document.querySelector(".loading-screen").style.opacity = "0";
+    }, 500);
   }, 5000);
 });
 
