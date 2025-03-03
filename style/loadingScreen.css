@@ -12,6 +12,4 @@
   align-items: center;
   justify-content: center;
   transition: all 0.5s;
-  padding: 10%;
-  flex-wrap: no-wrap;
 }
