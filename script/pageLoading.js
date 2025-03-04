@@ -7,7 +7,7 @@ window.addEventListener("load", function () {
     setTimeout(function () {
       loadingPage.style.opacity = "0";
     }, 500);
-  }, 5000);
+  }, 3000);
 });
 
 /* 로딩창에서 휠 불가능 */
